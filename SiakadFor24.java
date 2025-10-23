@@ -6,7 +6,7 @@ public class SiakadFor24 {
         Scanner sc = new Scanner(System.in);
         double nilai, tertinggi = 0, terendah = 100;
         for (int i = 1; i <= 10; i++) {
-            System.out.println("Masukkan Nilai mahasiswa ke-" + i + ":");
+            System.out.print("Masukkan Nilai mahasiswa ke-" + i + ":");
             nilai = sc.nextDouble();
             if (nilai > tertinggi) {
                 tertinggi = nilai;
