@@ -9,7 +9,7 @@ public class SiakadWhile24 {
         jml = sc.nextInt();
 
         while (i < jml) {
-            System.out.println("Masukkan nili mahasiswa ke-" + (i + 1) + ":");
+            System.out.println("Masukkan nilai mahasiswa ke-" + (i + 1) + ":");
             nilai = sc.nextInt();
 
             if (nilai < 0 || nilai > 100) {
